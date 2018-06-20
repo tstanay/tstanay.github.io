@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+	.navbar-block .container {
+		max-width: 1320px;
+	}
+}
+@media (max-width: 1200px) {
+	.navbar-block nav a {
+		margin-right: 20px;
+	}
+}
+@media (min-width: 992px) {
+	.task-card-block {
+		padding-left: 4rem !important;
+	}
+	.navbar-block .container {
+		max-width: 1200px;
+	}
+}
+@media (max-width: 992px) {
+	.navbar-block nav a:last-child, .navbar-block .navbar-subscribe {
+		margin-right: 0;
+	}
+	.main-banner {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
