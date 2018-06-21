@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Minderry" name="application-name">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="awCiA8VxDEb098dkNNEUqpJDM-1zG1lweKM3ZuhSeUAHYcUuqxJBEsGhog1YhGCfxQV53CNOHgQU8kALijwwNw==">
+    <title>Minderry</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/glide.core.min.css" rel="stylesheet">
+    <meta content="Minderry" name="description">
+    <meta content="" name="keywords">
+    <meta content="Minderry" name="title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<div class="navbar-block">
+    <div class="container">
+        <div class="d-flex flex-column flex-lg-row align-items-center py-3 bg-white">
+            <a href="/" class="navbar-brand my-0 mr-lg-auto font-weight-normal text-dark">
+                <img src="img/logo.svg" width="200" height="55" class="d-inline-block align-middle" alt="">
+                <span class="brand-text">Помогает вам<br/> зарабатывать</span>
+            </a>
+            <nav class="my-2 my-lg-0">
+                <ul>
+                    <li><a href="/hiw">Как это работает</a></li>
+                    <li><a href="/gift/index">Сертификаты</a></li>
+                    <li><a href="/task/index">Задания</a></li>
+                </ul>
+            </nav>
+            <a class="navbar-subscribe" href="signup.html">
+                <svg viewBox="0 0 23 17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M 21.4216 0.138 C 21.2213 0.0676 20.9791 0.0058 20.7661 0.0058 L 2.2281 0.0058 C 1.6282 0.0058 0.9903 0.3617 0.6009 0.7994 C 0.265 1.1769 0.0029 1.7466 0.0029 2.2601 L 0.0029 14.7399 C 0.0029 15.3156 0.3132 15.9296 0.7216 16.3214 C 1.0899 16.6747 1.6921 16.9942 2.2166 16.9942 L 20.7776 16.9942 C 21.0786 16.9942 21.5023 16.8409 21.7666 16.7009 C 22.4373 16.3458 22.9971 15.5084 22.9971 14.7341 L 22.9971 2.2601 C 22.9971 1.3322 22.2738 0.4376 21.4216 0.138 ZM 21.2168 1.124 L 11.8556 8.4693 L 1.796 1.1204 C 1.9622 1.0571 2.1396 0.9949 2.3201 0.9949 L 20.6741 0.9949 C 20.8542 0.9949 21.0532 1.0564 21.2168 1.124 ZM 21.963 2.0523 C 21.98 2.1154 22.0024 2.2031 22.0024 2.2659 L 22.0024 14.7226 C 22.0024 15.363 21.3178 16.0051 20.6856 16.0051 L 2.3086 16.0051 C 1.678 16.0051 0.9976 15.369 0.9976 14.7283 L 0.9976 2.2717 C 0.9976 2.1987 1.0166 2.1088 1.0318 2.0356 L 11.5064 9.6882 C 11.7244 9.8475 12.0346 9.8425 12.2471 9.6758 L 21.963 2.0523 Z"></path></svg> Подписаться</a>
+            <a class="navbar-btn" href="login.html">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M 12 23.9141 C 5.4307 23.9141 0.085 18.5693 0.085 12 C 0.085 5.4307 5.4307 0.0859 12 0.0859 C 18.5693 0.0859 23.915 5.4307 23.915 12 C 23.915 18.5693 18.5693 23.9141 12 23.9141 ZM 12 1.3857 C 6.1475 1.3857 1.3857 6.1475 1.3857 12 C 1.3857 17.8525 6.1475 22.6143 12 22.6143 C 17.8525 22.6143 22.6143 17.8525 22.6143 12 C 22.6143 6.1475 17.8525 1.3857 12 1.3857 Z"></path>
+                    <path d="M 19.4951 21.0522 C 19.4111 21.0522 19.3271 21.0361 19.2451 21.002 C 14.2148 18.9063 13.9551 18.0723 13.8301 17.6719 C 13.8105 17.6089 13.7998 17.5439 13.7998 17.478 L 13.7998 16.4912 C 13.7998 16.3213 13.8662 16.1587 13.9854 16.0371 C 14.5703 15.4385 15.0234 14.605 15.2969 13.6265 C 15.3369 13.4819 15.4268 13.356 15.5488 13.2695 C 15.7588 13.1221 15.9004 12.8877 15.9365 12.6274 C 15.9727 12.3643 15.8984 12.103 15.7266 11.8916 C 15.6318 11.7759 15.5801 11.6309 15.5801 11.4814 L 15.5801 9.2715 C 15.5801 7.1528 14.3945 6.0781 12.0557 6.0781 C 9.749 6.0781 8.5303 7.1826 8.5303 9.2715 L 8.5303 11.4819 C 8.5303 11.6313 8.4785 11.7759 8.3848 11.8916 C 8.2129 12.1025 8.1387 12.3643 8.1758 12.6274 C 8.2119 12.8877 8.3525 13.1216 8.5615 13.2695 C 8.6846 13.3555 8.7734 13.4814 8.8135 13.626 C 9.0869 14.605 9.541 15.4385 10.126 16.0366 C 10.2441 16.1582 10.3115 16.3213 10.3115 16.4912 L 10.3115 17.478 C 10.3115 17.5435 10.3008 17.6089 10.2813 17.6719 C 10.082 18.311 9.3018 19.1504 4.9824 20.9438 C 4.6533 21.082 4.2715 20.9248 4.1328 20.5933 C 3.9951 20.2617 4.1523 19.8813 4.4844 19.7437 C 8.1055 18.2393 8.8564 17.5415 9.0107 17.3291 L 9.0107 16.7466 C 8.4053 16.061 7.9287 15.1826 7.6211 14.1802 C 7.2246 13.8291 6.9619 13.3398 6.8877 12.8062 C 6.8125 12.2632 6.9336 11.7271 7.2295 11.2715 L 7.2295 9.2715 C 7.2295 6.458 9.0342 4.7783 12.0557 4.7783 C 15.1221 4.7783 16.8809 6.416 16.8809 9.2715 L 16.8809 11.271 C 17.1777 11.7261 17.2988 12.2627 17.2236 12.8057 C 17.1504 13.3398 16.8857 13.8296 16.4893 14.1812 C 16.1816 15.1826 15.7061 16.0605 15.1006 16.7461 L 15.1006 17.3252 C 15.2432 17.501 16.0195 18.2495 19.7451 19.8018 C 20.0762 19.9399 20.2334 20.3203 20.0947 20.6519 C 19.9912 20.9014 19.749 21.0522 19.4951 21.0522 Z"></path>
+                </svg>
+                <span>Войти</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="wrapper wrapper-content">
+    <main class="main-content" role="main">
+        <div class="container">
+        </div>
+        <div class="page-title">
+            <h1 class="bd-title text-center m-0"><a class="hover" href="/login">Войти</a> / <a href="/signup">Зарегистрироваться</a></h1>
+        </div>
+        <section class="section-wrap">
+            <div class="row justify-content-center m-0">
+                <div class="col-sm-8 col-md-7 col-lg-5">
+                    <div class="form-signin">
+                        <form id="login-form" action="/login" method="post" role="form">
+                            <input type="hidden" name="_csrf" value="7xMHZsZ19EsNIIIRwC8kLkHYrhmKUJOUNvbabKzA3uKDcmBLqBa5Hzh253iselAbFp7kKNoF1OBap60Bzq6XlQ==">				<div class="form-group field-loginform-login required">
+                            <label class="control-label" for="loginform-login">Email или номер телефона</label>
+                            <input type="text" id="loginform-login" class="form-control" name="LoginForm[login]" aria-required="true">
+
+                            <p class="text-danger"></p>
+                        </div>				<div class="form-group field-loginform-password required">
+                            <label class="control-label" for="loginform-password">Пароль</label>
+                            <input type="text" id="loginform-password" class="form-control" name="LoginForm[password]" aria-required="true">
+
+                            <p class="text-danger"></p>
+                        </div>				<div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group field-loginform-rememberme">
+                                    <div class="checkbox"><input type="hidden" name="LoginForm[rememberMe]" value="0"><input type="checkbox" id="loginform-rememberme" name="LoginForm[rememberMe]" value="1" checked=""><label for="loginform-rememberme">Запомнить меня</label></div>
+                                </div>					</div>
+                            <div class="col-sm-6 text-sm-right">
+                                <a href="/request-password-reset">Забыли пароль?</a>					</div>
+                        </div>
+                            <div class="form-group text-center">
+                                <button type="submit" class="btn btn-big btn-primary mb-4" name="login-button">Войти</button>				</div>
+                            <div class="text-center">
+                                <p>Вход через соц. сети:</p>
+                                <div class="form-group">
+                                    <div class="eauth" id="w0">
+                                        <ul class="eauth-list">
+                                            <li class="eauth-service eauth-service-id-proberry"><a class="eauth-service-link" href="/login?service=proberry" data-eauth-service="proberry">Proberry.ru</a></li>	</ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>			</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+<footer class="footer top-divider">
+    <div class="container">
+        <div class="footer-wrapper">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-about-us">
+                        <!-- Logo -->
+                        <a href="/" class="logo-container flex-child">
+                            <img class="logo" src="img/logo.svg" alt="logo">
+                        </a>
+                        <p class="mt-4 mb-4">Помогает вам
+                            <br/>
+                            зарабатывать
+                        </p>
+                        <div class="socials">
+                            <a href="#" class="social social-twitter" aria-label="twitter" title="twitter" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social social-facebook" aria-label="facebook" title="facebook" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social social-google-plus" aria-label="google plus" title="google plus" target="_blank">
+                                <i class="fa fa-google"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!-- end about us -->
+                <div class="col-lg-2 offset-lg-3 col-md-6">
+                    <div class="footer-nav-menu">
+                        <h5 class="footer-title">О проекте</h5>
+                        <ul>
+                            <li>
+                                <a href="/rules" title="Правила сервиса">Правила сервиса</a>							</li>
+                            <li>
+                                <a href="/offer" title="Пользовательское соглашение">Пользовательское соглашение</a>							</li>
+                            <li>
+                                <a href="/contact" title="Контакты">Контакты</a>							</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-nav-menu">
+                        <h5 class="footer-title">Помощь</h5>
+                        <ul>
+                            <li>
+                                <a href="/questions" title="Вопрос - ответ">Вопрос - ответ</a>							</li>
+                            <li>
+                                <a href="/hiw" title="Как это работает">Как это работает</a>							</li>
+                            <li>
+                                <a href="#">Поддержка</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="loading-modal modal" style="display: none;">
+    <div class="overlay"></div>
+    <span class="icon"></span>
+</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter49178818 = new Ya.Metrika2({
+                    id:49178818,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks2");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49178818" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/yii.js"></script>
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="js/bootstrap-dialog.js"></script>
+<script src="js/glide.min.js"></script>
+<script src="js/app.js"></script>
+<script>jQuery(function ($) {
+
+    var glide = new Glide('.glide', {
+        type: 'carousel',
+        autoplay: 15000,
+        hoverpause: false,
+        perView: 7,
+        breakpoints: {
+            1200: {
+                perView: 5
+            },
+            992: {
+                perView: 4
+            },
+            768: {
+                perView: 3
+            },
+            576: {
+                perView: 2
+            }
+        }
+    }).mount();
+
+});</script>
+</body>
+</html>
